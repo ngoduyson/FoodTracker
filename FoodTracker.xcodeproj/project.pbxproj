@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		06277F481FEFF9F5002E5AA1 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06277F471FEFF9F5002E5AA1 /* RatingControl.swift */; };
+		068471DD2007BF8C00B77B0A /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068471DC2007BF8C00B77B0A /* Meal.swift */; };
 		F314491A1F48391100230BCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31449191F48391100230BCB /* AppDelegate.swift */; };
 		F314491C1F48391100230BCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F314491B1F48391100230BCB /* ViewController.swift */; };
 		F314491F1F48391100230BCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F314491D1F48391100230BCB /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		06277F471FEFF9F5002E5AA1 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		068471DC2007BF8C00B77B0A /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		F31449161F48391100230BCB /* FoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F31449191F48391100230BCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F314491B1F48391100230BCB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -81,8 +83,9 @@
 			children = (
 				F31449191F48391100230BCB /* AppDelegate.swift */,
 				F314491B1F48391100230BCB /* ViewController.swift */,
-				F314491D1F48391100230BCB /* Main.storyboard */,
+				068471DC2007BF8C00B77B0A /* Meal.swift */,
 				06277F471FEFF9F5002E5AA1 /* RatingControl.swift */,
+				F314491D1F48391100230BCB /* Main.storyboard */,
 				F31449201F48391100230BCB /* Assets.xcassets */,
 				F31449221F48391100230BCB /* LaunchScreen.storyboard */,
 				F31449251F48391100230BCB /* Info.plist */,
@@ -202,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				068471DD2007BF8C00B77B0A /* Meal.swift in Sources */,
 				F314491C1F48391100230BCB /* ViewController.swift in Sources */,
 				06277F481FEFF9F5002E5AA1 /* RatingControl.swift in Sources */,
 				F314491A1F48391100230BCB /* AppDelegate.swift in Sources */,
